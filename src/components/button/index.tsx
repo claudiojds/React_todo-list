@@ -7,8 +7,8 @@ type Props = {
 
 export const Button = ({ onClick }: Props) => {
   return (
-    <div className={styles.container}>
-      <button onClick={onClick}>
+    <div>
+      <button onClick={onClick} className={styles.container}>
         Criar <AddIcon />
       </button>
     </div>
